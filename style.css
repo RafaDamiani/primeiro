@@ -1,0 +1,24 @@
+#personas .figuras figure{
+     display: inline-block;
+     margin: 20px;
+     border-radius: 50%;
+    
+     
+}
+#personas .figuras {
+     text-align: center;
+
+}
+
+div {
+     text-align: center;
+}
+
+.figuras figure img {
+     width: 100%;
+     transition: border-radius 0.4s ease-in-out;
+ }
+ 
+ .figuras figure:hover img {
+     border-radius: 50%;
+ }
